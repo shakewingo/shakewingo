@@ -53,16 +53,6 @@
     },
     {
       "repo": "HKUDS/nanobot",
-      "number": 5120,
-      "title": "fix: session consolidation drops uploaded media paths carried only in `media[]`",
-      "url": "https://github.com/HKUDS/nanobot/pull/5120",
-      "kind": "pr",
-      "state": "closed",
-      "role": "author",
-      "date": "2026-07-27"
-    },
-    {
-      "repo": "HKUDS/nanobot",
       "number": 5118,
       "title": "Bug: Session consolidation drops uploaded media paths carried only in media[] (6/17 channels) — files become unrecoverable after archive",
       "url": "https://github.com/HKUDS/nanobot/issues/5118",

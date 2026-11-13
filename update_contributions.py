@@ -15,6 +15,7 @@ from datetime import datetime, timezone
 
 USER = "shakewingo"
 HIDDEN_REPOS = ["lda-project/lda", "wyf3/llm_related"]
+HIDDEN_ITEMS = ["HKUDS/nanobot#5120"]
 
 LABELS = {
     ("pr", "merged", "author"): "✅ PR merged",
@@ -50,9 +51,12 @@ def authored() -> list[dict]:
     query = f"author:{USER} -user:{USER} is:public {hidden}"
     items = []
     for it in gh("search/issues", q=query, per_page="100")["items"]:
+        repo = it["repository_url"].removeprefix("https://api.github.com/repos/")
+        if f"{repo}#{it['number']}" in HIDDEN_ITEMS:
+            continue
         pr = it.get("pull_request")
         items.append({
-            "repo": it["repository_url"].removeprefix("https://api.github.com/repos/"),
+            "repo": repo,
             "number": it["number"],
             "title": it["title"],
             "url": it["html_url"],
