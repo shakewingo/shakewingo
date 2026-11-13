@@ -1,4 +1,4 @@
-## Hi, I'm shakewingo
+## Hi, I'm Ying Yao
 
 An AI / ML engineer with a curious mind. Exploring AI, building things, and connecting the dots along the way.
 
