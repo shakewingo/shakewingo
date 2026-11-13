@@ -13,13 +13,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: ./update_contributions.sh
+      - run: python3 update_contributions.py
         env:
           GH_TOKEN: ${{ github.token }}
       - name: Commit if changed
         run: |
-          git diff --quiet README.md && exit 0
+          git diff --quiet README.md contributions.json && exit 0
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git commit -am "chore: update contributions"
+          git add README.md contributions.json
+          git commit -m "chore: update contributions"
           git push

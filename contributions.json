@@ -1,0 +1,80 @@
+{
+  "updated": "2026-11-13",
+  "items": [
+    {
+      "repo": "HKUDS/nanobot",
+      "number": 6649,
+      "title": "Dream only sees the first 1000 characters of each cumulative checkpoint in history.jsonl",
+      "url": "https://github.com/HKUDS/nanobot/issues/6649",
+      "kind": "issue",
+      "state": "open",
+      "role": "author",
+      "date": "2026-11-13"
+    },
+    {
+      "repo": "HKUDS/nanobot",
+      "number": 5687,
+      "title": "docs: clarify gateway health and WebSocket readiness",
+      "url": "https://github.com/HKUDS/nanobot/pull/5687",
+      "kind": "pr",
+      "state": "merged",
+      "role": "author",
+      "date": "2026-09-07"
+    },
+    {
+      "repo": "HKUDS/nanobot",
+      "number": 5257,
+      "title": "fix(agent): bound sustained-goal continuation when the turn goes idle",
+      "url": "https://github.com/HKUDS/nanobot/pull/5257",
+      "kind": "pr",
+      "state": "open",
+      "role": "author",
+      "date": "2026-08-05"
+    },
+    {
+      "repo": "HKUDS/nanobot",
+      "number": 5256,
+      "title": "Bug: /goal message produces dozens of repeated replies when waiting for user's answer",
+      "url": "https://github.com/HKUDS/nanobot/issues/5256",
+      "kind": "issue",
+      "state": "open",
+      "role": "author",
+      "date": "2026-08-05"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "number": 82219,
+      "title": "[UI enhancement for the plug-in in VS code]: Unblock the LLM responses when \"askUserQuestions\" box pops up",
+      "url": "https://github.com/anthropics/claude-code/issues/82219",
+      "kind": "issue",
+      "state": "closed",
+      "role": "author",
+      "date": "2026-07-29"
+    },
+    {
+      "repo": "HKUDS/nanobot",
+      "number": 5120,
+      "title": "fix: session consolidation drops uploaded media paths carried only in `media[]`",
+      "url": "https://github.com/HKUDS/nanobot/pull/5120",
+      "kind": "pr",
+      "state": "closed",
+      "role": "author",
+      "date": "2026-07-27"
+    },
+    {
+      "repo": "HKUDS/nanobot",
+      "number": 5118,
+      "title": "Bug: Session consolidation drops uploaded media paths carried only in media[] (6/17 channels) — files become unrecoverable after archive",
+      "url": "https://github.com/HKUDS/nanobot/issues/5118",
+      "kind": "issue",
+      "state": "closed",
+      "role": "author",
+      "date": "2026-07-27",
+      "fixed_by": {
+        "number": 5157,
+        "url": "https://github.com/HKUDS/nanobot/pull/5157",
+        "role": "co-author"
+      }
+    }
+  ]
+}
