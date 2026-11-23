@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "items": [
     {
       "repo": "HKUDS/nanobot",
@@ -7,7 +7,7 @@
       "title": "Dream only sees the first 1000 characters of each cumulative checkpoint in history.jsonl",
       "url": "https://github.com/HKUDS/nanobot/issues/6649",
       "kind": "issue",
-      "state": "open",
+      "state": "closed",
       "role": "author",
       "date": "2026-11-13"
     },
